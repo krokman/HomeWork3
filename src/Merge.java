@@ -1,6 +1,5 @@
 import java.util.Arrays;
 
-
 public class Merge {
 	public static void main(String[] args) {
 		int[] firstArray = {1, 24, 3, 6, 7};
