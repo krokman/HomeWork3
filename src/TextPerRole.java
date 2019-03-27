@@ -15,7 +15,8 @@ public class TextPerRole {
 
 	public static void main(String[] args) {
 		String[] roles = {
-				"Городничий", "Аммос Федорович",
+				"Городничий",
+				"Аммос Федорович",
 				"Артемий Филиппович",
 				"Лука Лукич"};
 		String[] textLines = {

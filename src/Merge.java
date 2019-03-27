@@ -1,6 +1,5 @@
 import java.util.Arrays;
 
-import static java.lang.System.arraycopy;
 
 public class Merge {
 	public static void main(String[] args) {
@@ -47,10 +46,10 @@ public class Merge {
 					copyOfFirstArray[firstArrayNumberIndex++] : copyOfSecondArray[secondArrayNumberIndex++];
 		}
 		if (firstArrayNumberIndex < copyOfFirstArray.length) {
-			arraycopy(copyOfFirstArray, firstArrayNumberIndex, outArray,
+			System.arraycopy(copyOfFirstArray, firstArrayNumberIndex, outArray,
 					outArrayNumberIndex, copyOfFirstArray.length - firstArrayNumberIndex);
 		} else if (secondArrayNumberIndex < copyOfSecondArray.length) {
-			arraycopy(copyOfSecondArray, secondArrayNumberIndex, outArray,
+			System.arraycopy(copyOfSecondArray, secondArrayNumberIndex, outArray,
 					outArrayNumberIndex, copyOfSecondArray.length - secondArrayNumberIndex);
 		}
 		return outArray;
