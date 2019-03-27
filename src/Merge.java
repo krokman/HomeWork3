@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 import static java.lang.System.arraycopy;
 
 public class Merge {

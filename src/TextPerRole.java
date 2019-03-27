@@ -5,7 +5,8 @@ public class TextPerRole {
 			stringBuilder.append("\n" + roles[i] + ":\n");
 			for (int j = 0; j < textLines.length; j++) {
 				if (textLines[j].trim().startsWith(roles[i].trim() + ":")) {
-					stringBuilder.append((j + 1) + ")" + textLines[j].substring(roles[i].trim().length() + 1) + "\n");
+					stringBuilder.append((j + 1) + ")" +
+							textLines[j].substring(roles[i].trim().length() + 1) + "\n");
 				}
 			}
 		}
